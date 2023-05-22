@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>W budowie</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("https://i.imgur.com/0fy8MBU.jpeg");
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    .message {
+      font-size: 54.5px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 13px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var typed = new Typed('.message', {
+        strings: ["Strona w budowie :)"],
+        typeSpeed: 60,
+        showCursor: false,
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="message"></div>
+</body>
+</html>
